@@ -1,0 +1,14 @@
+@import "../dist/webkit-sassui-flex-eq-width.scss";
+*{margin: 0;padding:0;}
+.test-webkit-sassui-flex-eq-width{
+  border:1px solid salmon;
+  height: 200px;
+  margin-bottom: 20px;
+  >img{
+     border: 1px solid seagreen;
+  }
+  >div{
+    width: 33.33%;
+    border: 1px solid seagreen;
+  }
+}

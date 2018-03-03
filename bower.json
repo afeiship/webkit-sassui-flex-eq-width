@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-flex-eq-width",
+  "description": "Flex eq width layout",
+  "main": [
+    "dist/webkit-sassui-flex-eq-width.css",
+    "dist/webkit-sassui-flex-eq-width.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "flex-eq-width"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

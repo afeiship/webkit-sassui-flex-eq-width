@@ -1,0 +1,16 @@
+/*webkit-sassui-flex-eq-width Start*/
+$webkit-sassui-flex-eq-width-align-map:(flex-start,center, flex-end,initial);
+.webkit-sassui-flex-eq-width{
+  display: flex;
+  align-items: center;
+  > * {
+    flex: 1;
+  }
+
+  @each $value in $webkit-sassui-flex-eq-width-align-map{
+    &[data-align=#{$value}]{
+      align-items: #{$value};
+    }
+  }
+}
+/*webkit-sassui-flex-eq-width End*/
